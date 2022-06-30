@@ -14,7 +14,7 @@ export const MenuItems = ({ items }) => {
               />
               <footer>
                 <h5 className="product-name">{elem.title}</h5>
-                <span className="product-price">{elem.price}</span>
+                <span className="product-price">${elem.price}</span>
               </footer>
             </article>
           );
